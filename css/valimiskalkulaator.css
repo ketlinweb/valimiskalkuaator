@@ -1,0 +1,36 @@
+body {
+	background-color: #60a000;
+	color: #fff;
+	font-weight: bold;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh; 
+}
+
+form {
+    padding: 100px;
+    border: 1px solid #fff;
+    background-color: #339956;
+    border-radius: 5px;
+}
+
+input {
+	display: block;
+	width: 300px;
+	height: 40px; 
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.success {
+	background-color: #4CAF50;
+	padding: 2px 12px 2px 12px;
+}
+
+.warning {
+	background-color: #f44336;
+	padding: 2px 12px 2px 12px;
+}
